@@ -8,12 +8,12 @@ let mastersongName = document.getElementById('mastersongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-  {songName: "Arjan vailly ne", filePath: "song/1.mp3", coverPath: "cover/1.jpg"},
-  {songName: "Sooraj hi chhaon banke ", filePath: "song/2.mp3", coverPath: "cover/2.jpg"},
-  {songName: "Ishq jaisa kuch", filePath: "song/3.mp3", coverPath: "cover/3.jpg"},
-  {songName: "Lutt putt gya", filePath: "song/4.mp3", coverPath: "cover/4.jpg"},
-  {songName: "Crakk Dil Jhoom ", filePath: "song/5.mp3", coverPath: "cover/5.jpg"},
-  {songName: "Jeena Haraam", filePath: "song/6.mp3", coverPath: "cover/6.jpg"}
+  {songName: "Arjan vailly ne", filePath: "1.mp3", coverPath: "1.jpg"},
+  {songName: "Sooraj hi chhaon banke ", filePath: "2.mp3", coverPath: "2.jpg"},
+  {songName: "Ishq jaisa kuch", filePath: "3.mp3", coverPath: "3.jpg"},
+  {songName: "Lutt putt gya", filePath: "4.mp3", coverPath: "4.jpg"},
+  {songName: "Crakk Dil Jhoom ", filePath: "5.mp3", coverPath: "5.jpg"},
+  {songName: "Jeena Haraam", filePath: "6.mp3", coverPath: "6.jpg"}
 ]
 
 songItems.forEach((element , i)=>{
